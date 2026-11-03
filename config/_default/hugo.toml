@@ -1,4 +1,6 @@
 baseURL = "https://praxis-weiterkommen.ch/"
+# baseURL = "https://ganymede42.github.io/praxis-weiterkommen/"
+
 title = "Praxis Weiterkommen"
 
 defaultContentLanguage = "de"

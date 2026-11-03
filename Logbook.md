@@ -86,6 +86,12 @@ Useful documentation:
 - [Hugo – Getting Started](https://gohugo.io/getting-started/?utm_source=chatgpt.com)
 - [Hugo – Multilingual websites](https://gohugo.io/content-management/multilingual/?utm_source=chatgpt.com)
 - [Ananke documentation](https://gohugo-ananke.github.io/documentation/?utm_source=chatgpt.com)
+
+
+/net/192.168.1.76/volume1/DS218_NAS/Monika/Documents/Praxis/
+
+https://fducat18.github.io/hugo-air-demo/
+https://fducat18.github.io/hugo-air-demo/en/
 ```
 
 
