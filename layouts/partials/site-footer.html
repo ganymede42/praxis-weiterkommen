@@ -1,0 +1,22 @@
+
+
+<footer>
+  <div class="flex justify-between">
+<p>Praxis weiterkommen<br/>
+Monika Kast Perry<br/>
+Weihermattstrasse 11a - 5242 Birr AG<br/>
+monika.kast-perry@psychologie.ch<br/>
+praxisweiterkommen@gmail.com<br/>
+Tel: 076 335 72 79<br/>
+<span>
+  © {{ now.Year }} {{ site.Title }}
+</span>
+</p>
+
+
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="{{ .Site.Home.Permalink }}" >
+    &copy; {{ with .Site.Copyright | compare.Default .Site.Title }} {{ . | safe.HTML }} {{ now.Format "2006"}} {{ end }}
+  </a>
+    <div>{{ partials.IncludeCached "social/follow.html" . }}</div>
+  </div>
+</footer>

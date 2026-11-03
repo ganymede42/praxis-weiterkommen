@@ -18,14 +18,3 @@ Die Psychotherapieausbildung basiert auf dem systemischen Ansatz und wurde am  I
 
 Weiter hat sie sich beim EMDR-Institut-Schweiz weiterbilden lassen.
 
-Praxis weiterkommen
-
-Monika Kast Perry
-
-Weihermattstrasse 11a - 5242 Birr AG
-
-monika.kast-perry@psychologie.ch
-
-praxisweiterkommen@gmail.com
-
-Tel: 076 335 72 79

@@ -17,17 +17,3 @@ Her therapeutic philosophy is rooted in the systemic approach as conducted at th
     Zurich.
 
 In addition, she attended a continuing education at the EMDR Institute Switzerland.
-
-Praxis weiterkommen
-
-Monika Kast Perry
-
-Weihermattstrasse 11a - 5242 Birr AG
-
-monika.kast-perry@psychologie.ch
-
-praxisweiterkommen@gmail.com
-
-Tel: 076 335 72 79
-
-zuklappen
