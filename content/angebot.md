@@ -6,11 +6,11 @@ Angebot
 
 Familientherapie
 
-Für Kinder und Jugendliche mit sozialen und emotionalen Problemen biete ich Einzel- und Familientherapien sowie Elternberatungen an.
+Für Kinder und Jugendliche mit sozialen und emotionalen Problemen biete ich Einzel- und Familientherapien sowie Elternberatungen an.
 
 Erwachsene
 
-Für Erwachsene biete ich Einzel- und Paartherapie an.
+Für Erwachsene biete ich Einzel- und Paartherapie an.
 
 Coaching für Lehrpersonen
 
@@ -23,11 +23,9 @@ Monika Kast Perry
 
 Weihermattstrasse 11a - 5242 Birr AG
 
-monika.kast-perry [at] psychologie.ch
+monika.kast-perry@psychologie.ch
 
-praxisweiterkommen
-
-[at] gmail.com
+praxisweiterkommen@gmail.com
 
 Tel: 076 335 72 79
 

@@ -8,12 +8,8 @@ Monika Kast Perry
 
 Weihermattstrasse 11a - 5242 Birr AG
 
-monika.kast-perry [at] psychologie.ch
+monika.kast-perry@psychologie.ch
 
-praxisweiterkommen
-
-[at] gmail.com
+praxisweiterkommen@gmail.com
 
 Tel: 076 335 72 79
-
-zuklappen

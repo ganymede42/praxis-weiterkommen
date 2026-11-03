@@ -77,57 +77,16 @@ cp _orig/md/deutsch/kosten/index.md content/kosten.md
 cp _orig/md/about/index.md content/profil.en.md
 
 hugo server --noHTTPCache  --openBrowser
-xdg-open http://localhost:1313/
+#xdg-open http://localhost:1313/
 
+hugo --minify
 
+Useful documentation:
 
+- [Hugo – Getting Started](https://gohugo.io/getting-started/?utm_source=chatgpt.com)
+- [Hugo – Multilingual websites](https://gohugo.io/content-management/multilingual/?utm_source=chatgpt.com)
+- [Ananke documentation](https://gohugo-ananke.github.io/documentation/?utm_source=chatgpt.com)
 ```
-
-```
-cd /tmp/hugo
-hugo new project quickstart
-cd quickstart
-git init
-
-git submodule add --depth 1  https://github.com/HugoBlox/kit themes/HugoBlox
-#git clone --filter=blob:none  https://github.com/HugoBlox/kit  /tmp/HugoBlox
-#git submodule add --name HugoBlox https://github.com/HugoBlox/kit themes/HugoBlox
-
-echo "theme = 'ananke'" >> hugo.toml
-
-
-change_theme() {
-    local repo="$1"
-    local theme="$2"
-
-    if [[ -z "$repo" || -z "$theme" ]]; then
-        echo "Usage: change_theme <github-repo> <theme-name>"
-        return 1
-    fi
-
-    # Add https:// if no protocol is specified
-    [[ "$repo" != http*://* ]] && repo="https://$repo"
-
-    # try to add Hugo theme as shallow submodule
-    git submodule add --depth 1 "$repo" "themes/$theme"
-
-    # Update theme in hugo.toml
-    if grep -qE '^theme[[:space:]]*=' hugo.toml; then
-        sed -i -E "s|^theme[[:space:]]*=.*|theme = \"$theme\"|" hugo.toml
-    else
-        echo "theme = \"$theme\"" >> hugo.toml
-    fi
-
-    echo "Theme changed to: $theme"
-}
-
-change_theme github.com/gohugo-ananke/ananke ananke
-change_theme github.com/jpanther/congo.git   congo
-change_theme github.com/HugoBlox/kit         HugoBlox
-change_theme github.com/hugo-themes/toha     toha
-
-hugo server
-xdg-open http://localhost:1313/
 
 
 ## 1. Open your DNS settings at HOSTFACTORY

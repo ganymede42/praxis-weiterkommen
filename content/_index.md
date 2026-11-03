@@ -1,22 +1,39 @@
 ---
-title: "Profil - praxis weiterkommen Praxis für Kinder- und Jugendpsychologie und Psychotherapie"
+title: "Praxis weiterkommen, Lern-, Schul- und Elternberatung - praxis weiterkommen Praxis für Kinder- und Jugendpsychologie und Psychotherapie"
 ---
 
-Über mich
+Psychotherapeutische Praxis für Jugendliche, Familien und Erwachsene
 
-Dr. phil. Monika Kast Perry ist Fachpsychologin für Kinder- und Jugendpsychologie FSP und eidgenössisch anerkannte Psychotherapeutin.
+Beratung in Krisensituationen
 
-Nach ihrer Ausbildung zur Primarlehrerin (1998) studierte sie von 1999-2005 an der Universität Zürich Psychologie mit der Vertiefungsrichtung Neuropsychologie. Vor
-    und während dem Psychologiestudium unterrichtete sie als Primarlehrerin auf verschiedenen Alters- und Niveaustufen.
+![Monika Kast Perry](monika2.jpg)
 
-Die Dissertation zum Thema Lese- und Rechtschreibstörung schloss sie 2010 am Institut für Neuropsychologie an der Universität Zürich ab.
 
-Anschliessend absolvierte sie Post-Doc Stellen im In- und Ausland und arbeitet seither seit mehreren Jahre als Schulpsychologin in den Kantonen Zürich und
-    Luzern.
+Monika Kast Perry
 
-Die Psychotherapieausbildung basiert auf dem systemischen Ansatz und wurde am  IEF in Zürich  absolviert.
+Praxis weiterkommen bietet:
 
-Weiter hat sie sich beim EMDR-Institut-Schweiz weiterbilden lassen.
+Psychologische Unterstützung von Kindern und Jugendlichen
+
+sowie deren Familien zu psychologischen Fragestellungen. Gemeinsam mit Kindern
+    und Jugendlichen und ihren Eltern suche ich nach Möglichkeiten, um Schwierigkeiten zu verändern oder Sorgen zu vermindern. Das Erkunden von Stärken sowie die Zusammenarbeit mit Lehr- und anderen
+    Fachpersonen wirken bei der Lösungsfindung hilfreich.
+
+Auch in der
+
+psychotherapeutischen Beratung von Erwachsenen
+
+werden Ressourcen gestärkt und adäquate Lösungsstrategien
+    erarbeitet.
+
+Coaching von Lehrpersonen
+
+und Lehrerteams zu schulrelevanten Fragestellungen und Bewältigung von Konflikten. Dabei wird nach dem ressourcen- und
+    lösungsorientierten Ansatz gearbeitet.
+
+<b>„Wege entstehen dadurch, dass man sie geht.“</b>
+
+Franz Kafka
 
 Praxis weiterkommen
 
@@ -24,12 +41,9 @@ Monika Kast Perry
 
 Weihermattstrasse 11a - 5242 Birr AG
 
-monika.kast-perry [at] psychologie.ch
+monika.kast-perry@psychologie.ch
 
-praxisweiterkommen
-
-[at] gmail.com
+praxisweiterkommen@gmail.com
 
 Tel: 076 335 72 79
 
-zuklappen

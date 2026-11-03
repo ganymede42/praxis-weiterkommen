@@ -8,17 +8,17 @@ Einzeltherapie
 
 180 Fr. / 60 min
 
-Abrechnng kann über die Zusatzversicherung der Krankenkasse (gemäss deren Reglementen) erfolgen.
+Abrechnng kann über die Zusatzversicherung der Krankenkasse (gemäss deren Reglementen) erfolgen.
 
 Familientherapie
 
 200 Fr. / 60 min
 
-Abrechnng kann über die Zusatzversicherung der Krankenkasse (gemäss deren Reglementen) erfolgen.
+Abrechnng kann über die Zusatzversicherung der Krankenkasse (gemäss deren Reglementen) erfolgen.
 
 Coaching einzeln
 
-220 Fr. / 60 min
+220 Fr. / 60 min
 
 Abrechnung kann über dritte Zahlstelle erfolgen.
 
@@ -26,11 +26,11 @@ Coaching Team
 
 Kosten entsprechend der Gruppengrösse
 
-Falls die Beratungen nicht in meinem Praxisraum statt-finden, fallen zusätzliche Spesen für den Transport und aufgewendete Zeit an.
+Falls die Beratungen nicht in meinem Praxisraum statt-finden, fallen zusätzliche Spesen für den Transport und aufgewendete Zeit an.
 
 Termine, die nicht 24h zum Voraus abgemeldet werden, werden zum vollen Preis verrechnet.
 
-Seit dem 1. Juli 2022 kann, sofern eine ärztliche Anordnung vorliegt, auch über die Grundversicherung der Krankenkasse abgerechnet
+Seit dem 1. Juli 2022 kann, sofern eine ärztliche Anordnung vorliegt, auch über die Grundversicherung der Krankenkasse abgerechnet
     werden.
 
 ärztliche Anordung Kanton Aargau
@@ -59,12 +59,8 @@ Monika Kast Perry
 
 Weihermattstrasse 11a - 5242 Birr AG
 
-monika.kast-perry [at] psychologie.ch
+monika.kast-perry@psychologie.ch
 
-praxisweiterkommen
-
-[at] gmail.com
+praxisweiterkommen@gmail.com
 
 Tel: 076 335 72 79
-
-zuklappen

@@ -7,3 +7,11 @@ defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 
 theme = "ananke"
+
+[params]
+site_logo = "logo.png"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

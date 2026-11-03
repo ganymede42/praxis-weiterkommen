@@ -20,13 +20,13 @@ Can be covered by the supplementary health care insurance (according to the
 
 Individual Coaching
 
-220 Fr. / 60 min
+220 Fr. / 60 min
 
 Billing can be done via a third party paying agency.
 
 Coaching Team
 
-Depending  on the group size
+Depending  on the group size
 
 If it is desired that the consultation takes place at a client’s location, there will be additional charges
                             for the transport and the time.
@@ -81,12 +81,8 @@ Monika Kast Perry
 
 Weihermattstrasse 11a - 5242 Birr AG
 
-monika.kast-perry [at] psychologie.ch
+monika.kast-perry@psychologie.ch
 
-praxisweiterkommen
-
-[at] gmail.com
+praxisweiterkommen@gmail.com
 
 Tel: 076 335 72 79
-
-zuklappen
