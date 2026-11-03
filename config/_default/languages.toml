@@ -1,0 +1,56 @@
+[de]
+languageName = "Deutsch"
+languageCode = "de-CH"
+weight = 1
+title = "Praxis Weiterkommen"
+
+[de.menus]
+
+[[de.menus.main]]
+name = "Angebot"
+pageRef = "/angebot"
+weight = 10
+
+[[de.menus.main]]
+name = "Kontakt"
+pageRef = "/kontakt"
+weight = 20
+
+[[de.menus.main]]
+name = "Kosten"
+pageRef = "/kosten"
+weight = 30
+
+[[de.menus.main]]
+name = "Profil"
+pageRef = "/profil"
+weight = 40
+
+
+[en]
+languageName = "English"
+languageCode = "en-GB"
+weight = 2
+title = "Practice Weiterkommen"
+
+[en.menus]
+
+[[en.menus.main]]
+name = "Services"
+pageRef = "/angebot"
+weight = 10
+
+[[en.menus.main]]
+name = "Contact"
+pageRef = "/kontakt"
+weight = 20
+
+[[en.menus.main]]
+name = "Fees"
+pageRef = "/kosten"
+weight = 30
+
+[[en.menus.main]]
+name = "About me"
+pageRef = "/profil"
+weight = 40

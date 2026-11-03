@@ -1,0 +1,9 @@
+baseURL = "https://praxis-weiterkommen.ch/"
+title = "Praxis Weiterkommen"
+
+defaultContentLanguage = "de"
+defaultContentLanguageInSubdir = false
+
+enableRobotsTXT = true
+
+theme = "ananke"

@@ -39,28 +39,48 @@ systemctl enable --now mariadb
 
 03.11.2026 Hugo
 ```
-snap install hugo
+cd /tmp
+URL=$(python3 -c '
+import json, urllib.request
+d = json.load(urllib.request.urlopen(
+    "https://api.github.com/repos/gohugoio/hugo/releases/latest"))
+print(next(a["browser_download_url"] for a in d["assets"]
+    if a["name"].startswith("hugo_extended_")
+    and a["name"].endswith("_linux-amd64.deb")))
+')
+echo $URL
+wget "$URL" -O hugo_extended.deb
+sudo apt install ./hugo_extended.deb
+which hugo
+type -a hugo
 
-mkdir -p ~/Websites
-cd ~/Websites
+https://chatgpt.com/c/6ae99c7e-f120-83ed-a612-7f39ec4e6f1a
+
 hugo new site  praxis-weiterkommen
 cd praxis-weiterkommen/
 
-git init
-git submodule add \
-https://github.com/theNewDynamic/gohugo-theme-ananke.git \
-themes/ananke
-
-edit files  content/_index.md content/about.md hugo.toml
-
-zamofing_t@ganymede:~/Websites/praxis-weiterkommen$
-hugo server -D
-xdg-open http://localhost:1313/
+git submodule add --depth 1 https://github.com/gohugo-ananke/ananke themes/ananke
 
 #clone origin:
 mkdir _orig
 cd _orig/
 wget  --mirror  --convert-links  --adjust-extension  --page-requisites  --wait=1  --domains=praxis-weiterkommen.com  --no-parent https://www.praxis-weiterkommen.com/
+
+cp _orig/md/english-1/profile/index.md content/_index.en.md
+cp _orig/md/deutsch/profil/index.md content/_index.md
+cp _orig/md/english-1/supply/index.md content/angebot.en.md
+cp _orig/md/deutsch/angebot/index.md content/angebot.md
+cp _orig/md/english-1/contact/index.md content/kontakt.en.md
+cp _orig/md/deutsch/kontakt/index.md content/kontakt.md
+cp _orig/md/counseling-in-crisis-situations/fees/index.md content/kosten.en.md
+cp _orig/md/deutsch/kosten/index.md content/kosten.md
+cp _orig/md/about/index.md content/profil.en.md
+
+hugo server --noHTTPCache  --openBrowser
+xdg-open http://localhost:1313/
+
+
+
 ```
 
 ```
@@ -69,7 +89,6 @@ hugo new project quickstart
 cd quickstart
 git init
 
-git submodule add --depth 1 https://github.com/gohugo-ananke/ananke themes/ananke
 git submodule add --depth 1  https://github.com/HugoBlox/kit themes/HugoBlox
 #git clone --filter=blob:none  https://github.com/HugoBlox/kit  /tmp/HugoBlox
 #git submodule add --name HugoBlox https://github.com/HugoBlox/kit themes/HugoBlox
