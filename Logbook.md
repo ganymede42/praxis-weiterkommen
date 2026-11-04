@@ -360,3 +360,12 @@ That should return `YOUR-USERNAME.github.io.` with your actual GitHub username s
 praxis-weiterkommen.ch.
 Für diesen Hostnamen ist ein DNS-Alias aktiv.
 Dieser Eintrag wird automatisch anhand des Ziel-Hostnamens aktualisiert und kann nicht manuell bearbeitet werden.
+
+# 04.11.2026 work on home page
+```
+TODO: 
+- add more images
+- add start button to go to the main index
+- check why it is not https by default
+
+```

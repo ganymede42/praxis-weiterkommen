@@ -11,7 +11,7 @@ enableRobotsTXT = true
 theme = "ananke"
 
 [params]
-site_logo = "logo.png"
+site_logo = "Logo1_640px.png"
 author = "Monika Kast Perry"
 description = "Psychotherapie und psychologische Beratung in Birr AG für Kinder, Jugendliche, Familien und Erwachsene. Coaching für Lehrpersonen und Teams."
 
