@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+description: "Contact Praxis Weiterkommen in Birr, Switzerland, for appointments and enquiries. Find the practice address, phone number and directions."
 ---
 
 ## Get in touch
@@ -35,14 +36,9 @@ Weihermattstrasse 11a, 5242 Birr, Switzerland
 
 [Open directions in Google Maps](https://www.google.com/maps/search/?api=1&query=Weihermattstrasse%2011a%2C%205242%20Birr%2C%20Switzerland)
 
-## Contact form
+## Map and privacy
 
-Name  
-Email  
-Your message  
-Please enter the code:
-
-*Please complete all fields marked with an asterisk.*
+The map is provided by Google. When this page loads, your browser connects to Google to display the map. Technical information such as your IP address may be transmitted to Google. Please refer to [Google's Privacy Policy](https://policies.google.com/privacy) for details.
 
 ## Data protection and patients' rights
 
