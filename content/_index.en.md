@@ -1,19 +1,8 @@
 ---
-title: "Profile - praxis weiterkommen Praxis für Kinder- und Jugendpsychologie und Psychotherapie"
+title: "Practice Weiterkommen"
+description: "Psychotherapy and psychological counselling for children, adolescents, families and adults – as well as coaching for teachers."
 ---
 
-About me
+I support children, adolescents and their families with social and emotional difficulties. Together, we look for ways to build on strengths, ease concerns and make positive change possible.
 
-Dr. phil. Monika Kast Perry  holds the titles „Fachpsychologin für Kinder- und Jugendpsychologie FSP“ and „eidgenössisch anerkannte Psychotherapeutin“.
-
-Monika Kast Perry completed the teachers training college in 1998. She studied psychology at the University of Zurich from 1999 to 2005, specializing in
-    neuropsychology. She has been working as an elementary school teacher in various grades before and during her studies at the University.
-
-Monika Kast Perry completed her PhD thesis on dyslexia at the Institute of Neuropsychology at the
-    University of Zurich in 2010. Subsequently, she completed two post-doctoral fellowships in Switzerland and California, USA. Since then, she has been working as a school psychologist in the 
-    cantons Lucerne and Zurich.
-
-Her therapeutic philosophy is rooted in the systemic approach as conducted at the IEF in
-    Zurich.
-
-In addition, she attended a continuing education at the EMDR Institute Switzerland.
+I also offer psychotherapeutic support for adults. Teachers and teaching teams can benefit from coaching on school-related questions and challenging situations, using a resource- and solution-oriented approach.
