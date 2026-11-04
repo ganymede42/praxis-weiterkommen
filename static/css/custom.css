@@ -26,7 +26,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
   color: var(--pw-plum);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-weight: 500;
   line-height: 1.3;
 }
@@ -35,6 +35,11 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.15rem); }
 p { margin-top: 0; margin-bottom: 1.25em; }
 a { color: var(--pw-plum); text-decoration-thickness: 1px; text-underline-offset: .18em; }
 a:hover, a:focus { color: var(--pw-coral); }
+
+/* Override Ananke's Athelas serif font with the site's sans-serif font */
+.athelas {
+  font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
 
 /* Ananke header and navigation */
 header > div.bg-black,
