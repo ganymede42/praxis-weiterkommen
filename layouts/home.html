@@ -1,0 +1,81 @@
+{{ define "main" }}
+  {{ $services := site.GetPage "angebot" }}
+  {{ $contact := site.GetPage "kontakt" }}
+  {{ $profile := site.GetPage "profil" }}
+  <section class="pw-hero">
+    <div class="pw-container pw-hero-grid">
+      <div class="pw-hero-copy">
+        {{ if eq .Lang "de" }}
+          <p class="pw-eyebrow">Psychologische Praxis in Birr</p>
+        {{ else }}
+          <p class="pw-eyebrow">Psychological practice in Birr, Switzerland</p>
+        {{ end }}
+        <h1>{{ .Title }}</h1>
+        {{ with .Description }}<p class="pw-hero-lead">{{ . }}</p>{{ end }}
+        <div class="pw-hero-actions">
+          {{ with $services }}
+            <a class="pw-button pw-button-primary" href="{{ .RelPermalink }}">{{ if eq $.Lang "de" }}Angebot entdecken{{ else }}Explore services{{ end }}</a>
+          {{ end }}
+          {{ with $contact }}
+            <a class="pw-button pw-button-secondary" href="{{ .RelPermalink }}">{{ if eq $.Lang "de" }}Kontakt aufnehmen{{ else }}Get in touch{{ end }}</a>
+          {{ end }}
+        </div>
+      </div>
+      <div class="pw-hero-image-wrap">
+        <img class="pw-hero-image" src="{{ "monika2.jpg" | relURL }}" alt="{{ if eq .Lang "de" }}Monika Kast Perry{{ else }}Monika Kast Perry, psychotherapist{{ end }}" />
+      </div>
+    </div>
+  </section>
+
+  <section class="pw-services-section">
+    <div class="pw-container">
+      <div class="pw-section-heading">
+        <p class="pw-eyebrow">{{ if eq .Lang "de" }}Wobei ich Sie unterstütze{{ else }}How I can support you{{ end }}</p>
+        <h2>{{ if eq .Lang "de" }}Raum für Entwicklung und neue Wege{{ else }}Space for growth and new perspectives{{ end }}</h2>
+      </div>
+      <div class="pw-service-grid">
+        <article class="pw-service-card">
+          <span class="pw-card-number">01</span>
+          <h3>{{ if eq .Lang "de" }}Kinder, Jugendliche und Familien{{ else }}Children, adolescents and families{{ end }}</h3>
+          <p>{{ if eq .Lang "de" }}Einzel- und Familientherapie sowie Elternberatung bei sozialen und emotionalen Schwierigkeiten.{{ else }}Individual and family therapy, as well as parent counselling for social and emotional difficulties.{{ end }}</p>
+          {{ with $services }}<a href="{{ .RelPermalink }}">{{ if eq $.Lang "de" }}Mehr zum Angebot{{ else }}Learn more{{ end }} <span aria-hidden="true">→</span></a>{{ end }}
+        </article>
+        <article class="pw-service-card">
+          <span class="pw-card-number">02</span>
+          <h3>{{ if eq .Lang "de" }}Erwachsene{{ else }}Adults{{ end }}</h3>
+          <p>{{ if eq .Lang "de" }}Psychotherapeutische Begleitung für Einzelpersonen und Paare in herausfordernden Lebenssituationen.{{ else }}Psychotherapeutic support for individuals and couples facing difficult life situations.{{ end }}</p>
+          {{ with $services }}<a href="{{ .RelPermalink }}">{{ if eq $.Lang "de" }}Mehr zum Angebot{{ else }}Learn more{{ end }} <span aria-hidden="true">→</span></a>{{ end }}
+        </article>
+        <article class="pw-service-card">
+          <span class="pw-card-number">03</span>
+          <h3>{{ if eq .Lang "de" }}Lehrpersonen und Teams{{ else }}Teachers and teams{{ end }}</h3>
+          <p>{{ if eq .Lang "de" }}Coaching und massgeschneiderte Weiterbildungen zu schulischen Fragestellungen und Konflikten.{{ else }}Coaching and tailored professional development for school-related questions and challenging situations.{{ end }}</p>
+          {{ with $services }}<a href="{{ .RelPermalink }}">{{ if eq $.Lang "de" }}Mehr zum Angebot{{ else }}Learn more{{ end }} <span aria-hidden="true">→</span></a>{{ end }}
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="pw-approach">
+    <div class="pw-container pw-approach-grid">
+      <div>
+        <p class="pw-eyebrow">{{ if eq .Lang "de" }}Meine Haltung{{ else }}My approach{{ end }}</p>
+        <h2>{{ if eq .Lang "de" }}Stärken entdecken. Möglichkeiten entwickeln.{{ else }}Discover strengths. Create possibilities.{{ end }}</h2>
+      </div>
+      <div class="pw-approach-copy">
+        {{ .Content }}
+        {{ with $profile }}<a class="pw-text-link" href="{{ .RelPermalink }}">{{ if eq $.Lang "de" }}Mehr über mich{{ else }}More about me{{ end }} <span aria-hidden="true">→</span></a>{{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section class="pw-contact-band">
+    <div class="pw-container pw-contact-band-inner">
+      <div>
+        <h2>{{ if eq .Lang "de" }}Der erste Schritt darf ganz unkompliziert sein.{{ else }}Taking the first step can be simple.{{ end }}</h2>
+        <p>{{ if eq .Lang "de" }}Bei Fragen oder für eine Terminvereinbarung können Sie mich gerne kontaktieren.{{ else }}Please get in touch if you have questions or would like to arrange an appointment.{{ end }}</p>
+      </div>
+      {{ with $contact }}<a class="pw-button pw-button-light" href="{{ .RelPermalink }}">{{ if eq $.Lang "de" }}Kontakt{{ else }}Contact{{ end }} <span aria-hidden="true">→</span></a>{{ end }}
+    </div>
+  </section>
+{{ end }}
