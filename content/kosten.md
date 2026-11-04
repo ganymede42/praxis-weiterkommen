@@ -1,54 +1,25 @@
 ---
-title: "Kosten - praxis weiterkommen Praxis für Kinder- und Jugendpsychologie und Psychotherapie"
+title: "Kosten"
 ---
 
-Kosten
+## Tarife
 
-Einzeltherapie
+| Angebot | Kosten |
+| --- | ---: |
+| Einzeltherapie | CHF 180.– / 60 Min. |
+| Familientherapie | CHF 200.– / 60 Min. |
+| Coaching einzeln | CHF 220.– / 60 Min. |
+| Coaching Team | Je nach Gruppengrösse |
 
-180 Fr. / 60 min
+Einzel- und Familientherapien können gemäss den jeweiligen Reglementen über die Zusatzversicherung der Krankenkasse abgerechnet werden. Für Coaching kann die Abrechnung über eine dritte Zahlstelle erfolgen.
 
-Abrechnng kann über die Zusatzversicherung der Krankenkasse (gemäss deren Reglementen) erfolgen.
+Seit dem 1. Juli 2022 kann Psychotherapie bei Vorliegen einer ärztlichen Anordnung auch über die Grundversicherung der Krankenkasse abgerechnet werden.
 
-Familientherapie
+- [Ärztliche Anordnung Kanton Aargau](/Anordnung_psychologische_Psychotherapie_AG.pdf)
+- [Verlängerung nach 30 Therapiesitzungen](/Antrag_Fallbeurteilung_nach_30._Sitzung_Version_1.0_DE.pdf)
 
-200 Fr. / 60 min
+## Weitere Hinweise
 
-Abrechnng kann über die Zusatzversicherung der Krankenkasse (gemäss deren Reglementen) erfolgen.
+Falls Beratungen nicht in meinem Praxisraum stattfinden, fallen zusätzliche Spesen für Transport und aufgewendete Zeit an.
 
-Coaching einzeln
-
-220 Fr. / 60 min
-
-Abrechnung kann über dritte Zahlstelle erfolgen.
-
-Coaching Team
-
-Kosten entsprechend der Gruppengrösse
-
-Falls die Beratungen nicht in meinem Praxisraum statt-finden, fallen zusätzliche Spesen für den Transport und aufgewendete Zeit an.
-
-Termine, die nicht 24h zum Voraus abgemeldet werden, werden zum vollen Preis verrechnet.
-
-Seit dem 1. Juli 2022 kann, sofern eine ärztliche Anordnung vorliegt, auch über die Grundversicherung der Krankenkasse abgerechnet
-    werden.
-
-ärztliche Anordung Kanton Aargau
-
-Anordnung_psychologische_Psychotherapie_
-
-Adobe Acrobat Dokument
-
-650.5 KB
-
-Download
-
-Verlängerung nach 30 Therapiesitzungen
-
-Antrag_Fallbeurteilung_nach_30._Sitzung_
-
-Adobe Acrobat Dokument
-
-454.1 KB
-
-Download
+Termine, die nicht mindestens 24 Stunden im Voraus abgesagt werden, werden zum vollen Preis verrechnet.
