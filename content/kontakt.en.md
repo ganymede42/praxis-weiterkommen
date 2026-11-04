@@ -25,20 +25,33 @@ Fridays
 **Praxis Weiterkommen**  
 Weihermattstrasse 11a, 5242 Birr, Switzerland
 
-<iframe
-  class="pw-map-frame"
-  src="https://maps.google.com/maps?q=Weihermattstrasse%2011a%2C%205242%20Birr%2C%20Switzerland&output=embed"
-  title="Google Maps – Praxis Weiterkommen, Weihermattstrasse 11a, 5242 Birr"
-  loading="lazy"
-  referrerpolicy="no-referrer-when-downgrade"
-  allowfullscreen>
-</iframe>
+<div class="pw-map-consent">
+  <p>The map is loaded only after you select “Show map”. This connects your browser to Google; technical information such as your IP address may be transmitted to Google.</p>
+  <button class="pw-map-load" type="button" data-pw-map-load data-map-src="https://maps.google.com/maps?q=Weihermattstrasse%2011a%2C%205242%20Birr%2C%20Switzerland&output=embed" data-map-title="Google Maps – Praxis Weiterkommen, Weihermattstrasse 11a, 5242 Birr">Show map</button>
+  <noscript><p>Please use <a href="https://www.google.com/maps/search/?api=1&query=Weihermattstrasse%2011a%2C%205242%20Birr%2C%20Switzerland">Google Maps for directions</a>.</p></noscript>
+</div>
+<script>
+(function () {
+  document.querySelectorAll("[data-pw-map-load]").forEach(function (button) {
+    button.addEventListener("click", function () {
+      var frame = document.createElement("iframe");
+      frame.className = "pw-map-frame";
+      frame.src = button.getAttribute("data-map-src");
+      frame.title = button.getAttribute("data-map-title");
+      frame.loading = "lazy";
+      frame.referrerPolicy = "no-referrer-when-downgrade";
+      frame.allowFullscreen = true;
+      button.replaceWith(frame);
+    });
+  });
+}());
+</script>
 
 [Open directions in Google Maps](https://www.google.com/maps/search/?api=1&query=Weihermattstrasse%2011a%2C%205242%20Birr%2C%20Switzerland)
 
 ## Map and privacy
 
-The map is provided by Google. When this page loads, your browser connects to Google to display the map. Technical information such as your IP address may be transmitted to Google. Please refer to [Google's Privacy Policy](https://policies.google.com/privacy) for details.
+The map is loaded only after you choose to show it. Your browser then connects to Google, and technical information such as your IP address may be transmitted to Google. Please refer to [Google's Privacy Policy](https://policies.google.com/privacy) for details.
 
 ## Data protection and patients' rights
 
