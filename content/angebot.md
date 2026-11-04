@@ -1,5 +1,6 @@
 ---
 title: "Angebot"
+description: "Psychotherapie für Kinder, Jugendliche, Familien und Erwachsene sowie Coaching und Weiterbildung für Lehrpersonen in Birr AG."
 ---
 
 ## Kinder, Jugendliche und Familien
