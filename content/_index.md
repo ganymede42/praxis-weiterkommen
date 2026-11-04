@@ -11,4 +11,4 @@ Auch Erwachsene unterstütze ich in psychotherapeutischen Beratungen. Lehrperson
 > Franz Kafka
 
 ![PhotoDanielMallard](/865442979_2.jpg)
-(4.11.2026 asking permission pending)
+(4.11.2026 copyright permission pending)

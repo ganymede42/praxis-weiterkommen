@@ -1,9 +1,7 @@
 ---
-title: "Profil"
+title: "Über mich"
 description: "Lernen Sie Dr. phil. Monika Kast Perry kennen: Fachpsychologin für Kinder- und Jugendpsychologie FSP und eidgenössisch anerkannte Psychotherapeutin."
 ---
-
-## Über mich
 
 Dr. phil. Monika Kast Perry ist Fachpsychologin für Kinder- und Jugendpsychologie FSP und eidgenössisch anerkannte Psychotherapeutin.
 
