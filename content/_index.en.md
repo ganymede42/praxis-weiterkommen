@@ -1,5 +1,6 @@
 ---
 title: "Practice Weiterkommen"
+description: "Psychotherapy and psychological counselling in Birr, Aargau, for children, adolescents, families and adults. Coaching for teachers and teams."
 description: "Psychotherapy and psychological counselling for children, adolescents, families and adults – as well as coaching for teachers."
 ---
 
