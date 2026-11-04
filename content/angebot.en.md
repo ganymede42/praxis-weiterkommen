@@ -1,5 +1,6 @@
 ---
 title: "Services"
+description: "Individual and family therapy for children and adolescents, psychotherapy for adults, and coaching for teachers in Birr, Switzerland."
 ---
 
 ## Children, adolescents and families
