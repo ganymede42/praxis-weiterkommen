@@ -1,3 +1,9 @@
+{{ define "header" }}
+  <header class="pw-site-header">
+    {{ partials.Include "site-navigation.html" . }}
+  </header>
+{{ end }}
+
 {{ define "main" }}
   {{ $services := site.GetPage "angebot" }}
   {{ $contact := site.GetPage "kontakt" }}
