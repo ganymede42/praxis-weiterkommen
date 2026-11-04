@@ -5,9 +5,9 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ $services := site.GetPage "angebot" }}
-  {{ $contact := site.GetPage "kontakt" }}
-  {{ $profile := site.GetPage "profil" }}
+  {{ $services := site.GetPage "/angebot" }}
+  {{ $contact := site.GetPage "/kontakt" }}
+  {{ $profile := site.GetPage "/profil" }}
   <section class="pw-hero">
     <div class="pw-container pw-hero-grid">
       <div class="pw-hero-copy">
