@@ -1,5 +1,6 @@
 ---
 title: "About me"
+description: "Meet Dr. phil. Monika Kast Perry, a Swiss federally recognised psychotherapist and specialist in child and adolescent psychology."
 ---
 
 Dr. phil. Monika Kast Perry holds the titles “Fachpsychologin für Kinder- und Jugendpsychologie FSP” and “eidgenössisch anerkannte Psychotherapeutin”.
