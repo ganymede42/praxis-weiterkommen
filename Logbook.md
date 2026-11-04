@@ -367,5 +367,5 @@ TODO:
 - add more images
 - add start button to go to the main index
 - check why it is not https by default
-
+- check cookie settings and add stuff user confirmation if required
 ```
