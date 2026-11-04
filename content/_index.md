@@ -1,5 +1,6 @@
 ---
 title: "Praxis Weiterkommen"
+description: "Psychotherapie und psychologische Beratung in Birr AG für Kinder, Jugendliche, Familien und Erwachsene. Coaching für Lehrpersonen und Teams."
 description: "Psychotherapie und psychologische Beratung für Kinder, Jugendliche, Familien und Erwachsene – sowie Coaching für Lehrpersonen."
 ---
 
