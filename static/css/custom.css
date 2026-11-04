@@ -163,3 +163,6 @@ footer a:hover, footer a:focus { color: #ffc4b8; }
   .pw-footer-grid { grid-template-columns: 1fr; gap: 1rem; }
   .pw-footer-bottom { flex-direction: column; gap: .35rem; }
 }
+
+.pw-site-header { background: var(--pw-lavender); }
+.pw-site-header nav { padding-bottom: 1.1rem; padding-top: 1.1rem; }
