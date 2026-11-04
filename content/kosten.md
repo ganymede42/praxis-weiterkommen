@@ -1,5 +1,6 @@
 ---
 title: "Kosten"
+description: "Informationen zu Tarifen und Kosten für Psychotherapie, Familientherapie und Coaching in der Praxis Weiterkommen in Birr."
 ---
 
 ## Tarife
