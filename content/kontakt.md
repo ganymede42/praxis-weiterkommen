@@ -1,5 +1,6 @@
 ---
 title: "Kontakt"
+description: "Kontakt zur Praxis Weiterkommen in Birr AG: Adresse, Telefonnummer, E-Mail und Anfahrt zur psychotherapeutischen Praxis."
 ---
 
 ## Kontaktieren Sie mich
@@ -35,14 +36,9 @@ Weihermattstrasse 11a, 5242 Birr
 
 [Route in Google Maps öffnen](https://www.google.com/maps/search/?api=1&query=Weihermattstrasse%2011a%2C%205242%20Birr%2C%20Switzerland)
 
-## Kontaktformular
+## Karte und Datenschutz
 
-Name  
-E-Mail  
-Ihre Nachricht  
-Bitte den Code eingeben:
-
-*Bitte füllen Sie die mit * gekennzeichneten Felder aus.*
+Die Karte wird von Google bereitgestellt. Beim Laden dieser Seite verbindet sich Ihr Browser mit Google, um die Karte anzuzeigen. Dabei können technische Informationen wie Ihre IP-Adresse an Google übermittelt werden. Weitere Informationen finden Sie in der [Datenschutzerklärung von Google](https://policies.google.com/privacy).
 
 ## Datenschutz und Patientenrechte
 
