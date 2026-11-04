@@ -2,7 +2,7 @@
 :root {
   --pw-plum: #70286f;
   --pw-plum-deep: #542052;
-  --pw-coral: #e96a55;
+  --pw-coral: #a74437;
   --pw-ink: #403940;
   --pw-muted: #706872;
   --pw-paper: #fbf8f5;
@@ -13,6 +13,10 @@
 
 /* Calm, readable page typography */
 html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
 body {
   background: var(--pw-paper);
   color: var(--pw-ink);
@@ -148,7 +152,7 @@ footer a:hover, footer a:focus { color: #ffc4b8; }
 .pw-footer-name { color: #fff; font-family: Georgia, "Times New Roman", serif; font-size: 1.3rem !important; }
 .pw-footer-label { color: #ffc4b8; font-size: .75rem !important; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .pw-footer a { color: #fff; text-decoration: none; }
-.pw-footer a:hover { color: #ffc4b8; text-decoration: underline; }
+.pw-footer a:hover, .pw-footer a:focus-visible { color: #ffc4b8; text-decoration: underline; }
 .pw-footer-bottom { border-top: 1px solid rgba(255,255,255,.2); color: #e6d8e4; display: flex; font-size: .78rem; justify-content: space-between; margin-top: 2rem; padding-top: 1rem; }
 @media (max-width: 48em) {
   .pw-hero-grid, .pw-approach-grid { grid-template-columns: 1fr; }
@@ -171,7 +175,7 @@ footer a:hover, footer a:focus { color: #ffc4b8; }
 .nested-copy-line-height { font-family: "Helvetica Neue", Arial, sans-serif; }
 .nested-copy-line-height h2 { margin: 2.2rem 0 .8rem; }
 .nested-copy-line-height h3 { margin: 1.7rem 0 .6rem; }
-.nested-copy-line-height table { border-collapse: collapse; font-size: .96rem; margin: 1.5rem 0 2rem; width: 100%; }
+.nested-copy-line-height table { border-collapse: collapse; display: block; font-size: .96rem; margin: 1.5rem 0 2rem; max-width: 100%; overflow-x: auto; width: 100%; }
 .nested-copy-line-height th, .nested-copy-line-height td { border-bottom: 1px solid var(--pw-border); padding: .8rem .9rem; text-align: left; }
 .nested-copy-line-height th { background: var(--pw-lavender); color: var(--pw-plum); font-weight: 700; }
 .nested-copy-line-height tr:last-child td { border-bottom: 0; }
