@@ -7,6 +7,11 @@ title = "Praxis Weiterkommen"
 [de.menus]
 
 [[de.menus.main]]
+name = "Start"
+pageRef = "/"
+weight = 1
+
+[[de.menus.main]]
 name = "Angebot"
 pageRef = "/angebot"
 weight = 10
@@ -34,6 +39,11 @@ weight = 2
 title = "Practice Weiterkommen"
 
 [en.menus]
+
+[[en.menus.main]]
+name = "Home"
+pageRef = "/"
+weight = 1
 
 [[en.menus.main]]
 name = "Services"
