@@ -1,51 +1,23 @@
 ---
-title: "Services and Specializations - praxis weiterkommen Praxis für Kinder- und Jugendpsychologie und Psychotherapie"
+title: "Services"
 ---
 
-Services and Specializations
+## Children, adolescents and families
 
-Family therapy
+I offer individual and family therapy for children and adolescents experiencing social or emotional difficulties, as well as counselling for parents.
 
-I am offering therapy for children, adolescents and families, as well as counseling for parents regarding social, emotional and behavioral
-    problems.
+## Adults
 
-Adults@m offering therapy for
+I offer individual and couples therapy for adults in difficult and challenging situations.
 
-individuals and couples in difficult and challenging situations.
+## Coaching for teachers
 
-Coaching for teachers
+I provide coaching for teachers and tailored professional development for teaching teams. Topics include school-related questions and challenging classroom situations, using a resource- and solution-oriented approach.
 
-I am providing coaching for teachers and individualized continued  education programs for teaching teams. Topics are school related, such as how
-    to deal with challenging students and situations in the class room. There the resources and solutions oriented approach will be applied.
+## Health insurance
 
-Appointments @uly 1, 2022, billing can also be made via the basic health insurance policy, provided there is a doctor's order.
+Since 1 July 2022, psychotherapy can also be billed through basic health insurance, provided a doctor's referral is in place.
 
-Ärztliche Anordnung Kanton AG
-
-Anordnung_psychologische_Psychotherapie_
-
-Adobe Acrobat Dokument
-
-650.5 KB
-
-Download
-
-Ärztliche Anordnung Kanton ZH
-
-Anordnung_psychologische_Psychotherapie_
-
-Adobe Acrobat Dokument
-
-664.4 KB
-
-Download
-
-Extension after 30 Sessions
-
-Antrag_Fallbeurteilung_nach_30._Sitzung_
-
-Adobe Acrobat Dokument
-
-454.1 KB
-
-Download
+- [Medical referral – Canton Aargau](/Anordnung_psychologische_Psychotherapie_AG.pdf)
+- [Medical referral – Canton Zurich](/Anordnung_psychologische_Psychotherapie_ZH.pdf)
+- [Application for assessment after 30 sessions](/Antrag_Fallbeurteilung_nach_30._Sitzung_Version_1.0_DE.pdf)
