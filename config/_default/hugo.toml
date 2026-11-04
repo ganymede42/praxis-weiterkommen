@@ -13,6 +13,9 @@ theme = "ananke"
 [params]
 site_logo = "logo.png"
 
+[params.ananke]
+custom_css = ["css/custom.css"]
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
