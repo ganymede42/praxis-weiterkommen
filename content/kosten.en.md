@@ -1,5 +1,6 @@
 ---
 title: "Fees"
+description: "Fees for individual and family therapy, psychotherapy and coaching at Praxis Weiterkommen in Birr, Switzerland."
 ---
 
 ## Rates
