@@ -9,3 +9,6 @@ Auch Erwachsene unterstütze ich in psychotherapeutischen Beratungen. Lehrperson
 > „Wege entstehen dadurch, dass man sie geht.“
 >
 > Franz Kafka
+
+![PhotoDanielMallard](/865442979_2.jpg)
+(4.11.2026 asking permission pending)
