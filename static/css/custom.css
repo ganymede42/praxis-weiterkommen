@@ -1,0 +1,103 @@
+/* Praxis Weiterkommen — warm, welcoming visual identity */
+:root {
+  --pw-plum: #70286f;
+  --pw-plum-deep: #542052;
+  --pw-coral: #e96a55;
+  --pw-ink: #403940;
+  --pw-muted: #706872;
+  --pw-paper: #fbf8f5;
+  --pw-lavender: #f3eaf2;
+  --pw-peach: #fcece7;
+  --pw-border: #e8dce7;
+}
+
+/* Calm, readable page typography */
+html { scroll-behavior: smooth; }
+body {
+  background: var(--pw-paper);
+  color: var(--pw-ink);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.75;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--pw-plum);
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  line-height: 1.3;
+}
+h1 { font-size: clamp(2rem, 4vw, 3rem); }
+h2 { font-size: clamp(1.55rem, 3vw, 2.15rem); }
+p { margin-top: 0; margin-bottom: 1.25em; }
+a { color: var(--pw-plum); text-decoration-thickness: 1px; text-underline-offset: .18em; }
+a:hover, a:focus { color: var(--pw-coral); }
+
+/* Ananke header and navigation */
+header > div.bg-black,
+header > div.bg-near-black {
+  background: var(--pw-lavender);
+}
+header nav { background: transparent; }
+header nav > div {
+  max-width: 72rem;
+  margin-inline: auto;
+}
+header nav a {
+  color: var(--pw-plum) !important;
+  transition: color .18s ease;
+}
+header nav a:hover,
+header nav a:focus {
+  color: var(--pw-coral) !important;
+}
+header nav img {
+  display: block;
+  width: auto;
+  max-width: min(100%, 15rem);
+  max-height: 5.25rem;
+  object-fit: contain;
+}
+/* Keep navigation on the left and the practice logo on the right on wide screens. */
+@media (min-width: 60em) {
+  header nav > div > a { order: 2; margin-left: 2rem; }
+  header nav > div > div { order: 1; }
+  header nav ul { margin-left: 0; margin-right: 1rem; }
+}
+header > div.bg-black h1,
+header > div.bg-near-black h1 {
+  color: var(--pw-plum);
+}
+header > div.bg-black h2,
+header > div.bg-near-black h2 {
+  color: var(--pw-muted);
+}
+
+/* Main content */
+main { background: var(--pw-paper); }
+article, .nested-copy-line-height { line-height: 1.8; }
+.measure-wide { max-width: 52rem; }
+hr { border: 0; border-top: 1px solid var(--pw-border); margin: 2.25rem 0; }
+blockquote {
+  border-left: 3px solid var(--pw-coral);
+  color: var(--pw-plum);
+  margin: 2rem 0;
+  padding: .5rem 0 .5rem 1.25rem;
+}
+
+/* Friendly, restrained footer */
+footer {
+  background: var(--pw-plum-deep);
+  color: #fff;
+}
+footer a { color: #fff; }
+footer a:hover, footer a:focus { color: #ffc4b8; }
+
+/* Accessible keyboard focus and comfortable small-screen spacing */
+:focus-visible {
+  outline: 3px solid var(--pw-coral);
+  outline-offset: 3px;
+}
+@media (max-width: 40em) {
+  body { font-size: 16px; }
+  header nav img { max-height: 4rem; }
+}
