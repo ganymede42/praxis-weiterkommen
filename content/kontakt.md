@@ -19,6 +19,22 @@ E-Mail: [monika.kast-perry@psychologie.ch](mailto:monika.kast-perry@psychologie.
 
 Freitags
 
+## Standort
+
+**Praxis Weiterkommen**  
+Weihermattstrasse 11a, 5242 Birr
+
+<iframe
+  class="pw-map-frame"
+  src="https://maps.google.com/maps?q=Weihermattstrasse%2011a%2C%205242%20Birr%2C%20Switzerland&output=embed"
+  title="Google Maps – Praxis Weiterkommen, Weihermattstrasse 11a, 5242 Birr"
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+  allowfullscreen>
+</iframe>
+
+[Route in Google Maps öffnen](https://www.google.com/maps/search/?api=1&query=Weihermattstrasse%2011a%2C%205242%20Birr%2C%20Switzerland)
+
 ## Kontaktformular
 
 Name  
