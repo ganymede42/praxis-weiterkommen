@@ -25,20 +25,33 @@ Freitags
 **Praxis Weiterkommen**  
 Weihermattstrasse 11a, 5242 Birr
 
-<iframe
-  class="pw-map-frame"
-  src="https://maps.google.com/maps?q=Weihermattstrasse%2011a%2C%205242%20Birr%2C%20Switzerland&output=embed"
-  title="Google Maps – Praxis Weiterkommen, Weihermattstrasse 11a, 5242 Birr"
-  loading="lazy"
-  referrerpolicy="no-referrer-when-downgrade"
-  allowfullscreen>
-</iframe>
+<div class="pw-map-consent">
+  <p>Die Karte wird erst geladen, wenn Sie auf «Karte anzeigen» klicken. Dabei wird eine Verbindung zu Google hergestellt; technische Informationen wie Ihre IP-Adresse können an Google übermittelt werden.</p>
+  <button class="pw-map-load" type="button" data-pw-map-load data-map-src="https://maps.google.com/maps?q=Weihermattstrasse%2011a%2C%205242%20Birr%2C%20Switzerland&output=embed" data-map-title="Google Maps – Praxis Weiterkommen, Weihermattstrasse 11a, 5242 Birr">Karte anzeigen</button>
+  <noscript><p>Bitte verwenden Sie <a href="https://www.google.com/maps/search/?api=1&query=Weihermattstrasse%2011a%2C%205242%20Birr%2C%20Switzerland">Google Maps für die Wegbeschreibung</a>.</p></noscript>
+</div>
+<script>
+(function () {
+  document.querySelectorAll("[data-pw-map-load]").forEach(function (button) {
+    button.addEventListener("click", function () {
+      var frame = document.createElement("iframe");
+      frame.className = "pw-map-frame";
+      frame.src = button.getAttribute("data-map-src");
+      frame.title = button.getAttribute("data-map-title");
+      frame.loading = "lazy";
+      frame.referrerPolicy = "no-referrer-when-downgrade";
+      frame.allowFullscreen = true;
+      button.replaceWith(frame);
+    });
+  });
+}());
+</script>
 
 [Route in Google Maps öffnen](https://www.google.com/maps/search/?api=1&query=Weihermattstrasse%2011a%2C%205242%20Birr%2C%20Switzerland)
 
 ## Karte und Datenschutz
 
-Die Karte wird von Google bereitgestellt. Beim Laden dieser Seite verbindet sich Ihr Browser mit Google, um die Karte anzuzeigen. Dabei können technische Informationen wie Ihre IP-Adresse an Google übermittelt werden. Weitere Informationen finden Sie in der [Datenschutzerklärung von Google](https://policies.google.com/privacy).
+Die Karte wird erst nach Ihrer ausdrücklichen Auswahl geladen. Beim Laden verbindet sich Ihr Browser mit Google; dabei können technische Informationen wie Ihre IP-Adresse an Google übermittelt werden. Weitere Informationen finden Sie in der [Datenschutzerklärung von Google](https://policies.google.com/privacy).
 
 ## Datenschutz und Patientenrechte
 
