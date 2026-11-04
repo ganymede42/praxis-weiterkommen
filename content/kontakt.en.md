@@ -30,12 +30,20 @@ Please enter the code:
 
 ## Data protection and patients' rights
 
-The following patient information is currently provided in German. Patients have the right, under data protection law and cantonal health legislation, to request information about the personal data being processed about them and to receive their personal data, particularly health data.
+The following patient information is provided in German.
 
-Patients may request a copy of their complete patient file or parts of it from their treating psychologist. This right belongs independently to all patients who have the capacity to make decisions. A verbal request, for example by telephone, is generally sufficient to exercise the right of access. If the data controller is unsure whether the applicant is entitled to receive the information, the request should be made in writing.
+Patientinnen und Patienten haben gemäss Datenschutzgesetz sowie nach kantonalen Gesundheitsgesetzen einerseits das Recht, Auskunft darüber zu verlangen, welche Personendaten über sie bearbeitet werden. Sie haben ebenso das Recht auf Herausgabe ihrer Personendaten, insbesondere Gesundheitsdaten.
 
-### Privacy notice
+Patientinnen und Patienten können eine Kopie ihres gesamten Patientendossiers oder Teile davon bei ihrer behandelnden Psychologin oder ihrem behandelnden Psychologen verlangen. Dieses Recht steht allen urteilsfähigen Patientinnen und Patienten eigenständig zu. Patienten sind urteilsfähig, wenn sie in der Lage sind, vernunftgemäss zu handeln.
 
-The practice processes personal data for the purpose of providing psychological and psychotherapeutic care. Particularly sensitive personal data is shared only through secure communication channels. Administrative matters such as appointment changes may be handled through unencrypted communication where the patient has agreed to this.
+Für die Wahrnehmung des Einsichtsrechts reicht grundsätzlich eine mündliche, beispielsweise telefonische, Anfrage. Ist sich der Inhaber der Datensammlung unsicher, ob der Antragsteller auskunftsberechtigt ist, sollte der Antrag auf dem Schriftweg erfolgen.
 
-Where services are billed through basic health insurance, the Swiss Health Insurance Act (KVG) provides that patients receive a copy of the medical invoice.
+### Datenschutzerklärung
+
+Ich bestätige mit meiner Unterschrift, dass ich mit der Bearbeitung meiner Daten, den Zugriff auf die Daten durch die Psychologin sowie der Weitergabe der Daten an Dritte gemäss Patienteninformation auf der folgenden Seite einverstanden bin.
+
+Ich bin mir möglicher Risiken des Datenaustausches von besonders schützenswerten Personendaten (mögliche Einsicht von unberechtigten Dritten bei unsicheren Kommunikationswegen) sowie meiner Rechte bewusst und gebe mein Einverständnis für den gegenseitigen Kontakt zwischen meiner Psychologin und mir als Patientin oder Patient durch die oben genannten Kontaktinformationen.
+
+Patienteninformationen werden seitens der Psychologiepraxis (Einzelfirma) ausschliesslich über gesicherte Kommunikationswege weitergegeben. Ich bin einverstanden, dass administrative Anliegen wie zum Beispiel Terminverschiebungen mit unverschlüsselter Kommunikation erfolgen.
+
+Werden Leistungen über die Grundversicherung abgerechnet, sieht das Bundesgesetz über die Krankenversicherung (KVG) vor, dass Patientinnen und Patienten eine Kopie der Arztrechnung erhalten.
