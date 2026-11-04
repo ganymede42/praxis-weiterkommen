@@ -176,3 +176,17 @@ footer a:hover, footer a:focus { color: #ffc4b8; }
 .nested-copy-line-height th { background: var(--pw-lavender); color: var(--pw-plum); font-weight: 700; }
 .nested-copy-line-height tr:last-child td { border-bottom: 0; }
 body.is-home main { padding-bottom: 0; }
+
+/* Responsive Google Maps embed on contact pages */
+.pw-map-frame {
+  border: 1px solid var(--pw-border);
+  border-radius: 1rem;
+  display: block;
+  height: 22rem;
+  margin: 1.25rem 0 1rem;
+  max-width: 100%;
+  width: 100%;
+}
+@media (max-width: 40em) {
+  .pw-map-frame { height: 18rem; }
+}
