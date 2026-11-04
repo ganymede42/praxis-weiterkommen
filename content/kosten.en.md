@@ -1,77 +1,26 @@
 ---
-title: "Fees - praxis weiterkommen Praxis für Kinder- und Jugendpsychologie und Psychotherapie"
+title: "Fees"
 ---
 
-Fees
+## Rates
 
-Individual Therapy
+| Service | Fee |
+| --- | ---: |
+| Individual therapy | CHF 180.– / 60 min |
+| Family therapy | CHF 200.– / 60 min |
+| Individual coaching | CHF 220.– / 60 min |
+| Team coaching | Depending on group size |
 
-180 Fr. / 60 min
+Individual and family therapy may be covered by supplementary health insurance, according to the insurer's regulations. Coaching can be billed through a third-party paying agency.
 
-Can be covered by the supplementary health care insurance (according to the
-    regulations).
+Since 1 July 2022, psychotherapy may also be covered by basic health insurance if a doctor's referral is in place.
 
-Family Therapy
+- [Medical referral – Canton Aargau](/Anordnung_psychologische_Psychotherapie_AG.pdf)
+- [Medical referral – Canton Zurich](/Anordnung_psychologische_Psychotherapie_ZH.pdf)
+- [Application for assessment after 30 sessions](/Antrag_Fallbeurteilung_nach_30._Sitzung_Version_1.0_DE.pdf)
 
-200 Fr. / 60 min
+## Additional information
 
-Can be covered by the supplementary health care insurance (according to the
-    regulations).
+If a consultation takes place away from my practice, additional charges apply for travel and the time required.
 
-Individual Coaching
-
-220 Fr. / 60 min
-
-Billing can be done via a third party paying agency.
-
-Coaching Team
-
-Depending  on the group size
-
-If it is desired that the consultation takes place at a client’s location, there will be additional charges
-                            for the transport and the time.
-
-Appointments that have not been cancelled 24h ahead, will be charged full price.
-
-Since July 1, 2022 the costs can be covered by the basic health insurance, if there is a medical referral.
-
-Mecidal referral canton AG
-
-Anordnung_psychologische_Psychotherapie_
-
-Adobe Acrobat Dokument
-
-650.5 KB
-
-Download
-
-Medical referral canton ZH
-
-Anordnung_psychologische_Psychotherapie_
-
-Adobe Acrobat Dokument
-
-664.4 KB
-
-Download
-
-Medical referral for psychotherapy
-
-Anordnung_psychologische_Psychotherapie_
-
-Adobe Acrobat Dokument
-
-314.6 KB
-
-Download
-
-Prolongation of the psychotherapy after 30 sessions
-
-Antrag_Fallbeurteilung_nach_30._Sitzung_
-
-Adobe Acrobat Dokument
-
-454.1 KB
-
-Download
-
+Appointments cancelled less than 24 hours in advance are charged in full.
