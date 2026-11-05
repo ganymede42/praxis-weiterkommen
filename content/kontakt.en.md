@@ -14,7 +14,6 @@ Weihermattstrasse 11a
 
 Phone: [+41 76 335 72 79](tel:+41763357279)  
 Email: [monika.kast-perry@psychologie.ch](mailto:monika.kast-perry@psychologie.ch)  
-[praxisweiterkommen@gmail.com](mailto:praxisweiterkommen@gmail.com)
 
 ## Appointments
 
