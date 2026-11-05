@@ -41,19 +41,16 @@
       </div>
       <div class="pw-service-grid">
         <article class="pw-service-card">
-          <span class="pw-card-number">01</span>
           <h3>{{ if eq .Lang "de" }}Kinder, Jugendliche und Familien{{ else }}Children, adolescents and families{{ end }}</h3>
           <p>{{ if eq .Lang "de" }}Einzel- und Familientherapie sowie Elternberatung bei sozialen und emotionalen Schwierigkeiten.{{ else }}Individual and family therapy, as well as parent counselling for social and emotional difficulties.{{ end }}</p>
           {{ with $services }}<a href="{{ .RelPermalink }}">{{ if eq $.Lang "de" }}Mehr zum Angebot{{ else }}Learn more{{ end }} <span aria-hidden="true">→</span></a>{{ end }}
         </article>
         <article class="pw-service-card">
-          <span class="pw-card-number">02</span>
           <h3>{{ if eq .Lang "de" }}Erwachsene{{ else }}Adults{{ end }}</h3>
           <p>{{ if eq .Lang "de" }}Psychotherapeutische Begleitung für Einzelpersonen und Paare in herausfordernden Lebenssituationen.{{ else }}Psychotherapeutic support for individuals and couples facing difficult life situations.{{ end }}</p>
           {{ with $services }}<a href="{{ .RelPermalink }}">{{ if eq $.Lang "de" }}Mehr zum Angebot{{ else }}Learn more{{ end }} <span aria-hidden="true">→</span></a>{{ end }}
         </article>
         <article class="pw-service-card">
-          <span class="pw-card-number">03</span>
           <h3>{{ if eq .Lang "de" }}Lehrpersonen und Teams{{ else }}Teachers and teams{{ end }}</h3>
           <p>{{ if eq .Lang "de" }}Coaching und massgeschneiderte Weiterbildungen zu schulischen Fragestellungen und Konflikten.{{ else }}Coaching and tailored professional development for school-related questions and challenging situations.{{ end }}</p>
           {{ with $services }}<a href="{{ .RelPermalink }}">{{ if eq $.Lang "de" }}Mehr zum Angebot{{ else }}Learn more{{ end }} <span aria-hidden="true">→</span></a>{{ end }}
@@ -66,7 +63,7 @@
     <div class="pw-container pw-approach-grid">
       <div>
         <p class="pw-eyebrow">{{ if eq .Lang "de" }}Meine Haltung{{ else }}My approach{{ end }}</p>
-        <h2>{{ if eq .Lang "de" }}Stärken entdecken. Möglichkeiten entwickeln.{{ else }}Discover strengths. Create possibilities.{{ end }}</h2>
+        <h3>{{ if eq .Lang "de" }}Stärken entdecken. Möglichkeiten entwickeln.{{ else }}Discover strengths. Create possibilities.{{ end }}</h2>
       </div>
       <div class="pw-approach-copy">
         {{ .Content }}
