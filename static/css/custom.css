@@ -199,3 +199,21 @@ body.is-home main { padding-bottom: 0; }
 @media (max-width: 40em) {
   .pw-map-frame { height: 18rem; }
 }
+
+/* Profile page: portrait floated to the upper right, with text wrapping around it */
+.pw-profile-image {
+  float: right;
+  width: min(34%, 18rem);
+  height: auto;
+  margin: .25rem 0 1.25rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.4rem 1.4rem rgba(64, 57, 64, .12);
+}
+@media (max-width: 40em) {
+  .pw-profile-image {
+    display: block;
+    float: none;
+    width: min(72%, 18rem);
+    margin: 0 auto 1.75rem;
+  }
+}
