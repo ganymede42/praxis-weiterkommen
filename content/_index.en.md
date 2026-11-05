@@ -11,5 +11,4 @@ I also offer psychotherapeutic support for adults. Teachers and teaching teams c
 >
 > Franz Kafka
 
-![PhotoDanielMallard](/865442979_2.jpg)
-(4.11.2026 copyright permission pending)
+![PhotoDanielMallard](/90318efe-a452-4dd3-a39c-0cffc87ed48d.jpeg)
