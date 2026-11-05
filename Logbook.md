@@ -18,7 +18,6 @@ https://my.hostfactory.ch/
    -> Mehr -> Auf Standard zurücksetzen -> Publizieren
 ```
 
-
 # 03.11.2026 09:46:01
 ```
 Hugo vs WorldPress
@@ -87,13 +86,11 @@ Useful documentation:
 - [Hugo – Multilingual websites](https://gohugo.io/content-management/multilingual/?utm_source=chatgpt.com)
 - [Ananke documentation](https://gohugo-ananke.github.io/documentation/?utm_source=chatgpt.com)
 
-
 /net/192.168.1.76/volume1/DS218_NAS/Monika/Documents/Praxis/
 
 https://fducat18.github.io/hugo-air-demo/
 https://fducat18.github.io/hugo-air-demo/en/
 ```
-
 
 ## 1. Open your DNS settings at HOSTFACTORY
 
@@ -115,8 +112,6 @@ You should see a list of DNS records with types such as `A`, `AAAA`, `CNAME`, `M
 
 HOSTFACTORY®
 
-
-
 ## 2. Add the DNS records for GitHub Pages
 
 First, in your GitHub repository, go to Settings → Pages → Custom domain, enter your actual `.ch` domain (for example, `example.ch`), and click Save. GitHub recommends doing this before configuring DNS.&#x20;
@@ -124,8 +119,6 @@ First, in your GitHub repository, go to Settings → Pages → Custom domain, en
 [image](https://www.google.com/s2/favicons?domain=https://docs.github.com\&sz=32)
 
 GitHub Docs
-
-
 
 Now return to HOSTFACTORY and create or edit these records.
 
@@ -148,8 +141,6 @@ These are GitHub's official IPv4 addresses.&#x20;
 
 GitHub Docs
 
-
-
 ### CNAME record — the `www` address
 
 Add or edit one record for `www`.
@@ -169,8 +160,6 @@ HOSTFACTORY®
 
 +1
 
-
-
 For example, if your GitHub username were `mywebsite`, the destination would be `mywebsite.github.io.`
 
 ## 3. Check existing records before saving
@@ -188,8 +177,6 @@ HOSTFACTORY warns that resetting the zone deletes custom records, including mail
 
 HOSTFACTORY®
 
-
-
 Optional: for IPv6 support, you can also add these four `AAAA` records for the root domain:
 
 | Type | Hostname              | Value                 |
@@ -205,8 +192,6 @@ Only replace the old IPv6 records if you want to configure GitHub's IPv6 support
 
 GitHub Docs
 
-
-
 ## 4. Publish and verify
 
 1. Save the records in HOSTFACTORY.
@@ -221,8 +206,6 @@ GitHub Docs
 
    +1
 
-
-
 On your Ubuntu computer, you can check the records in a terminal:
 
 ```
@@ -233,7 +216,6 @@ dig +short CNAME www.yourdomain.ch
 Replace `yourdomain.ch` with your real domain. The first command should return the four GitHub IPv4 addresses; the second should return your GitHub Pages hostname.
 
 If you send me a screenshot of your HOSTFACTORY DNS record list (you can obscure your customer number and other private details), I can tell you exactly which records to edit, add or preserve.
-
 
 https://my.hostfactory.ch/webhostings/
 -> click on praxis-weiterkommen.ch 
@@ -332,8 +314,6 @@ GitHub's documentation uses this same approach to verify the records.&#x20;
 
 GitHub Docs
 
-
-
 For a more detailed answer, including DNS record types and TTLs, run:
 
 ```
@@ -356,7 +336,6 @@ dig +short CNAME www.praxis-weiterkommen.ch
 
 That should return `YOUR-USERNAME.github.io.` with your actual GitHub username substituted.
 
-
 praxis-weiterkommen.ch.
 Für diesen Hostnamen ist ein DNS-Alias aktiv.
 Dieser Eintrag wird automatisch anhand des Ziel-Hostnamens aktualisiert und kann nicht manuell bearbeitet werden.
@@ -364,8 +343,283 @@ Dieser Eintrag wird automatisch anhand des Ziel-Hostnamens aktualisiert und kann
 # 04.11.2026 work on home page
 ```
 TODO: 
-- add more images
 - add start button to go to the main index
-- check why it is not https by default
+- change font of title to samye style as the rest (with non seriff font)
 - check cookie settings and add stuff user confirmation if required
+- check why it is not https by default
+- suggest to add images some unused images in the static folder
+- keep the not det approved image
+
+In Github I have:
+ Custom domain: praxis-weiterkommen.ch
+  Enforce HTTPS on
+
+In Hostfactory https://my.hostfactory.ch/ I have following DNS settings:
+$TTL  900
+@ 900 IN  SOA ns01.hostfactory.ch.  hostmaster.praxis-weiterkommen.ch.  2026110310  7200  7200  1209600 7200
+@     NS  ns01.hostfactory.ch.
+@     NS  ns02.hostfactory.ch.
+www     CNAME @
+@     TXT ("v=spf1 a mx include:spf.hostfactory.ch -all")
+_dmarc      TXT ("v=DMARC1\; p=quarantine")
+@     A 185.199.108.153
+@     A 185.199.109.153
+@     A 185.199.110.153
+@     A 185.199.111.153
+@     MX  0 .
+
+At work, something is blocked, probably because only http but not https.
+
+Do I have to create a DNS alias ?
+Are there some other checks to do? 
+
+https://praxis-weiterkommen.ch/
+
+https://github.com/ganymede42/praxis-weiterkommen/settings/pages
+
+www CNAME ganymede42.github.io.
+```
+---------------------------
+zamofing_t@ganymede:~/Documents/doc-private/praxis-weiterkommen$ curl -Iv https://praxis-weiterkommen.ch
+* Host praxis-weiterkommen.ch:443 was resolved.
+* IPv6: (none)
+* IPv4: 185.199.110.153, 185.199.111.153, 185.199.108.153, 185.199.109.153
+*   Trying 185.199.110.153:443...
+* ALPN: curl offers h2,http/1.1
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* SSL Trust Anchors:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+*   CApath: /etc/ssl/certs
+* Recv failure: Connection reset by peer
+* TLS connect error: error:00000000:lib(0)::reason(0)
+* OpenSSL SSL_connect: Connection reset by peer in connection to praxis-weiterkommen.ch:443 
+* closing connection #0
+curl: (35) Recv failure: Connection reset by peer
+zamofing_t@ganymede:~/Documents/doc-private/praxis-weiterkommen$ curl -4 -Iv https://praxis-weiterkommen.ch
+* Host praxis-weiterkommen.ch:443 was resolved.
+* IPv6: (none)
+* IPv4: 185.199.111.153, 185.199.110.153, 185.199.108.153, 185.199.109.153
+*   Trying 185.199.111.153:443...
+* ALPN: curl offers h2,http/1.1
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* SSL Trust Anchors:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+*   CApath: /etc/ssl/certs
+* Recv failure: Connection reset by peer
+* TLS connect error: error:00000000:lib(0)::reason(0)
+* OpenSSL SSL_connect: Connection reset by peer in connection to praxis-weiterkommen.ch:443 
+* closing connection #0
+curl: (35) Recv failure: Connection reset by peer
+zamofing_t@ganymede:~/Documents/doc-private/praxis-weiterkommen$ curl -6 -Iv https://praxis-weiterkommen.ch
+* Could not resolve host: praxis-weiterkommen.ch
+* Store negative name resolve for praxis-weiterkommen.ch:443
+* shutting down connection #0
+curl: (6) Could not resolve host: praxis-weiterkommen.ch
+zamofing_t@ganymede:~/Documents/doc-private/praxis-weiterkommen$ curl -Iv https://www.praxis-weiterkommen.ch
+* Host www.praxis-weiterkommen.ch:443 was resolved.
+* IPv6: (none)
+* IPv4: 185.199.111.153, 185.199.109.153, 185.199.108.153, 185.199.110.153
+*   Trying 185.199.111.153:443...
+* ALPN: curl offers h2,http/1.1
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* SSL Trust Anchors:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+*   CApath: /etc/ssl/certs
+* Recv failure: Connection reset by peer
+* TLS connect error: error:00000000:lib(0)::reason(0)
+* OpenSSL SSL_connect: Connection reset by peer in connection to www.praxis-weiterkommen.ch:443 
+* closing connection #0
+curl: (35) Recv failure: Connection reset by peer
+zamofing_t@ganymede:~/Documents/doc-private/praxis-weiterkommen$ echo "=== DNS ==="
+dig +short A praxis-weiterkommen.ch
+dig +short AAAA praxis-weiterkommen.ch
+dig +short CNAME www.praxis-weiterkommen.ch
+
+echo "=== HTTPS ==="
+curl -4 -sSI https://praxis-weiterkommen.ch
+curl -6 -sSI https://praxis-weiterkommen.ch
+
+echo "=== HTTP ==="
+curl -4 -sSI http://praxis-weiterkommen.ch
+=== DNS ===
+185.199.110.153
+185.199.111.153
+185.199.108.153
+185.199.109.153
+praxis-weiterkommen.ch.
+=== HTTPS ===
+curl: (35) Recv failure: Connection reset by peer
+curl: (6) Could not resolve host: praxis-weiterkommen.ch
+=== HTTP ===
+HTTP/1.1 503 Service Unavailable
+Content-Type: text/html; charset=UTF-8
+Content-Length: 9576
+Connection: close
+P3P: CP="CAO PSA OUR"
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+7. My recommended diagnostic sequence^C
+zamofing_t@ganymede:~/Documents/doc-private/praxis-weiterkommen$ openssl s_client \
+  -connect praxis-weiterkommen.ch:443 \
+  -servername praxis-weiterkommen.ch </dev/null
+Connecting to 185.199.110.153
+CONNECTED(00000003)
+write:errno=104
+---
+no peer certificate available
+---
+No client certificate CA names sent
+Negotiated TLS1.3 group: <NULL>
+---
+SSL handshake has read 0 bytes and written 1564 bytes
+Verification: OK
+---
+New, (NONE), Cipher is (NONE)
+Protocol: TLSv1.3
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+at work:
+https://praxis-weiterkommen.ch/ -> This site can’t be reached
+---------------------
+Your test results are very useful. They narrow the problem down considerably.
+
+Your DNS configuration is correct. The problem is not an HTTP-versus-HTTPS DNS alias.
+
+The important finding is this:
+
+HTTPS handshake fails
+
+```
+TLS handshake (Client Hello)
+Recv failure: Connection reset by peer
+```
+
+Your computer successfully:
+
+1. Resolves the domain.
+2. Finds the correct GitHub Pages IP addresses.
+3. Establishes a TCP connection to port 443.
+4. Sends a TLS Client Hello.
+
+But the connection is reset before the server sends its certificate.
+
+This means the failure occurs during the TLS connection, before HTTP or your website content is involved.
+
+## 1. What your results tell us
+
+| Test           | Result           | Interpretation                          |
+| -------------- | ---------------- | --------------------------------------- |
+| DNS A          | Four GitHub IPs  | Correct                                 |
+| DNS AAAA       | No records       | Fine; IPv4 is used                      |
+| www CNAME      | Apex domain      | Correct                                 |
+| HTTPS port 443 | Connection reset | TLS connection interrupted              |
+| HTTP port 80   | HTTP 503         | Server or intermediary returns an error |
+
+The `HTTP 503` response is particularly interesting. Its `P3P` header is unusual for GitHub Pages and makes me suspicious of an intermediary, such as a corporate web proxy or filtering system.
+
+My leading suspicion is therefore a network-level restriction or proxy at work.
+
+## 2. Identify whether the response comes from GitHub or your company
+
+Please run:
+
+```
+curl -v http://praxis-weiterkommen.ch -o /tmp/praxis-response.html
+```
+
+Then inspect the response:
+
+```
+head -40 /tmp/praxis-response.html
+```
+
+If you see a corporate security message, filtering category, or proxy error, we have probably found the source.
+
+Also check whether a proxy is configured:
+
+```
+env | grep -i proxy
+```
+
+## 3. Test whether GitHub HTTPS itself works
+
+Run:
+
+```
+curl -Iv https://github.com
+curl -Iv https://pages.github.com
+curl -Iv https://YOUR-GITHUB-USERNAME.github.io
+```
+
+Replace the username with your actual GitHub account.
+
+Interpretation:
+
+- All three work, but your custom domain fails: likely domain-specific filtering or custom-domain TLS handling.
+- All fail: likely broader GitHub or HTTPS filtering.
+- GitHub works, but GitHub Pages fails: investigate filtering of GitHub Pages.
+
+## 4. Compare with another network
+
+This is probably the most decisive test.
+
+Connect your laptop temporarily to your mobile phone's hotspot and run:
+
+```
+curl -Iv https://praxis-weiterkommen.ch
+```
+
+| Result                                       | Likely cause                                          |
+| -------------------------------------------- | ----------------------------------------------------- |
+| Works on mobile, fails at work               | Corporate firewall, proxy or DNS security             |
+| Fails on both                                | Investigate GitHub Pages configuration or certificate |
+| Works on mobile and home, fails only at work | Strong evidence of corporate filtering                |
+
+## 5. Check GitHub's certificate status
+
+In your repository:
+
+Settings → Pages
+
+Look at the custom domain section.
+
+You should see:
+
+- DNS check successful.
+- Certificate provisioned.
+- Enforce HTTPS enabled.
+
+If the certificate is not yet provisioned, GitHub needs to resolve that before HTTPS can work.
+
+## My recommendation
+
+I would not change your DNS records yet.
+
+Your four A records are correct, your CNAME resolves correctly, and IPv6 is not involved.
+
+I would first establish whether your company's network is resetting the TLS connection.
+
+If the mobile hotspot test works, you can give your IT/network team this precise information:
+
+> Outbound HTTPS connections to `praxis-weiterkommen.ch` (GitHub Pages, IPv4 addresses 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153) are reset during the TLS handshake. DNS resolution is successful. Please investigate HTTPS filtering, TLS inspection or firewall policies for this domain.
+
+Send me the results of tests 2 and 3, particularly the HTTP 503 response body. That should help distinguish a corporate web filter from a GitHub Pages configuration problem.
+
+# 05.11.2026 10:30:48
+```
+done:[16:49, 11/4/2026] Monika Kast Perry: Praxis Weiterkommen mal ist es so und mal ist es Praxis weiterkommen geschrieben. Ich bin für die 2. Variante und müsste in der ganzen Homepage konsistent sein.
+done:[16:53, 11/4/2026] Monika Kast Perry: Practice Weiterkommen dieser Mix zwischen Englisch und Deutsch sieht komisch aus
+done:[16:54, 11/4/2026] Monika Kast Perry: Psychological practice in Birr (Psychotherapeutic praictice in Birr) Es ist eine psychotherapeutische und keine psychologische Praxis
+done:[16:55, 11/4/2026] Monika Kast Perry: dito: Psychologische Praxis in Birr (Psychotherapeutische Praxis in Birr)
+
+rg -g '!_orig/**' -g '!Logbook.md' Psychological .
+rg -g '!_orig/**' -g '!Logbook.md' Psychologische .
+
+sed -i 's/Psychologische/Psychotherapeutische/' ./layouts/home.html ./layouts/partials/site-footer.html
 ```

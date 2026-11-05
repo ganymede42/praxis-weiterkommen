@@ -1,5 +1,5 @@
 ---
-title: "Practice Weiterkommen"
+title: "Praxis Weiterkommen"
 description: "Psychotherapy and psychological support for children, adolescents, families and adults in Birr, Switzerland."
 ---
 

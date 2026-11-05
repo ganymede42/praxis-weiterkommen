@@ -3,6 +3,9 @@ title: "Über mich"
 description: "Lernen Sie Dr. phil. Monika Kast Perry kennen: Fachpsychologin für Kinder- und Jugendpsychologie FSP und eidgenössisch anerkannte Psychotherapeutin."
 ---
 
+![Monika Kast](/Monika2_1500px.jpg)
+
+
 Dr. phil. Monika Kast Perry ist Fachpsychologin für Kinder- und Jugendpsychologie FSP und eidgenössisch anerkannte Psychotherapeutin.
 
 Nach ihrer Ausbildung zur Primarlehrerin (1998) studierte sie von 1999 bis 2005 an der Universität Zürich Psychologie mit der Vertiefungsrichtung Neuropsychologie. Vor und während des Psychologiestudiums unterrichtete sie als Primarlehrerin auf verschiedenen Alters- und Niveaustufen.
