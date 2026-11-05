@@ -3,13 +3,20 @@ title: "About me"
 description: "Meet Dr. phil. Monika Kast Perry, a Swiss federally recognised psychotherapist and specialist in child and adolescent psychology."
 ---
 
-![PhotoDanielMallard](/Monika2_1500px.jpg)
+<img src="/Monika2_1500px.jpg" alt="Monika Kast Perry" class="pw-profile-image">
 
-Dr. phil. Monika Kast Perry holds the titles “Fachpsychologin für Kinder- und Jugendpsychologie FSP” and “eidgenössisch anerkannte Psychotherapeutin”.
+Dr. phil. Monika Kast Perry is a specialist in child and adolescent psychology (FSP) and a federally recognised psychotherapist in Switzerland.
 
-Monika Kast Perry completed teacher training college in 1998. She studied psychology at the University of Zurich from 1999 to 2005, specializing in neuropsychology. She worked as an elementary school teacher in various grades before and during her studies.
+## Education and professional experience
 
-She completed her PhD thesis on dyslexia at the Institute of Neuropsychology at the University of Zurich in 2010. Subsequently, she conducted two post-doctoral fellowships in Switzerland and California, USA. Since 2012 she works as a school psychologist and has held an 80% position with the school psychological service for the secondary school in Regensdorf / Buchs / Dällikon since March 2018.
+After completing her primary school teacher training in 1998, she studied psychology at the University of Zurich from 1999 to 2005, specialising in neuropsychology. Before and during her psychology studies, she worked as a primary school teacher with pupils of different ages and ability levels.
 
-She completed her therapeutic training, based on a systemic approach at the IEF in Zurich, in June 2017. She has been running her own private practice since March 2018, and since August 2021 in Birr. She has participated in further training at the EMDR Institute Switzerland, the Institute for Schema Therapy Ostschweiz Winterthur, as well as hypnosystemic training programs at the IEF in Zurich. 
+She completed her doctoral dissertation on dyslexia at the Institute of Neuropsychology at the University of Zurich in 2010. She subsequently held postdoctoral positions in Switzerland and abroad.
 
+She has worked as a school psychologist since 2012. Since March 2018, she has held an 80% position with the school psychological service for the secondary school in Regensdorf/Buchs/Dällikon.
+
+## Psychotherapy training and continuing education
+
+She completed her systemic therapy training at the IEF in Zurich in June 2017. She has run her own private practice since March 2018; the practice has been based in Birr since August 2021.
+
+She has completed further training at the EMDR Institute Switzerland, the Institute for Schema Therapy Ostschweiz in Winterthur, and hypnosystemic training courses at the IEF in Zurich.
