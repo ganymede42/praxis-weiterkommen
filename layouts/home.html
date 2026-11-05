@@ -18,6 +18,7 @@
         {{ end }}
         <h1>{{ .Title }}</h1>
         {{ with .Description }}<p class="pw-hero-lead">{{ . }}</p>{{ end }}
+        <img style="border-radius: 1.5rem;" src="/Logo1_640px.png">
         <div class="pw-hero-actions">
           {{ with $services }}
             <a class="pw-button pw-button-primary" href="{{ .RelPermalink }}">{{ if eq $.Lang "de" }}Angebot entdecken{{ else }}Explore services{{ end }}</a>
