@@ -623,3 +623,9 @@ rg -g '!_orig/**' -g '!Logbook.md' Psychologische .
 
 sed -i 's/Psychologische/Psychotherapeutische/' ./layouts/home.html ./layouts/partials/site-footer.html
 ```
+
+06.11.2026 Todo: Anpassungen e-maikontakt
+```
+- google maps:                         ???
+- Hosting https://my.hostfactory.ch/:  monika.kast-perry@psychologie.ch
+```
