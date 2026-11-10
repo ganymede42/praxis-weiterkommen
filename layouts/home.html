@@ -27,7 +27,7 @@
           <h1>Psychotherapy and psychological support in Birr, Switzerland</h1>
         {{ end }}
         {{ with .Description }}<p class="pw-hero-lead">{{ . }}</p>{{ end }}
-        <img style="border-radius: 1.5rem;" src="{{ "Logo1_640px.png" | relURL }}" alt="Praxis Weiterkommen" width="320" height="auto" loading="eager">
+        <img style="border-radius: 1.5rem;" src="{{ "Logo1_640px.png" | relURL }}" alt="Praxis Weiterkommen" width="320" loading="eager">
         <div class="pw-hero-actions">
           {{ with $services }}
             <a class="pw-button pw-button-primary" href="{{ .RelPermalink }}">{{ if eq $.Lang "de" }}Angebot entdecken{{ else }}Explore services{{ end }}</a>
