@@ -1,3 +1,47 @@
+{{/* Language alternatives: each translation points to its matching page. */}}
+{{ range .AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Language.LanguageCode | default .Lang }}" href="{{ .Permalink }}">
+{{ end }}
+
+{{/* Structured data helps crawlers identify the practice and its location. */}}
+{{ $services := slice
+  (dict "@type" "Offer" "itemOffered" (dict "@type" "Service" "name" (cond (eq .Lang "de") "Psychotherapie für Kinder und Jugendliche" "Psychotherapy for children and adolescents")))
+  (dict "@type" "Offer" "itemOffered" (dict "@type" "Service" "name" (cond (eq .Lang "de") "Familientherapie und Elternberatung" "Family therapy and parent counselling")))
+  (dict "@type" "Offer" "itemOffered" (dict "@type" "Service" "name" (cond (eq .Lang "de") "Psychotherapie für Erwachsene" "Psychotherapy for adults")))
+  (dict "@type" "Offer" "itemOffered" (dict "@type" "Service" "name" (cond (eq .Lang "de") "Coaching für Lehrpersonen und Teams" "Coaching for teachers and teams")))
+}}
+{{ $practice := dict
+  "@context" "https://schema.org"
+  "@type" "LocalBusiness"
+  "@id" "https://praxis-weiterkommen.ch/#practice"
+  "name" "Praxis Weiterkommen"
+  "url" "https://praxis-weiterkommen.ch/"
+  "image" "https://praxis-weiterkommen.ch/Monika1_fixed_830px.jpg"
+  "description" (site.Params.description)
+  "telephone" "+41 76 335 72 79"
+  "email" "monika.kast-perry@psychologie.ch"
+  "address" (dict
+    "@type" "PostalAddress"
+    "streetAddress" "Weihermattstrasse 11a"
+    "postalCode" "5242"
+    "addressLocality" "Birr"
+    "addressRegion" "Aargau"
+    "addressCountry" "CH"
+  )
+  "areaServed" (dict "@type" "AdministrativeArea" "name" "Aargau, Switzerland")
+  "employee" (dict
+    "@type" "Person"
+    "name" "Dr. phil. Monika Kast Perry"
+    "jobTitle" "Fachpsychologin für Kinder- und Jugendpsychologie FSP; eidgenössisch anerkannte Psychotherapeutin"
+  )
+  "hasOfferCatalog" (dict
+    "@type" "OfferCatalog"
+    "name" (cond (eq .Lang "de") "Psychologische und psychotherapeutische Angebote" "Psychological and psychotherapeutic services")
+    "itemListElement" $services
+  )
+}}
+<script type="application/ld+json">{{ $practice | jsonify | safeJS }}</script>
+
 <link rel="icon" type="image/png" sizes="128x128" href="/logo128x128.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/logo32x32.png">
 <link rel="icon" type="image/png" sizes="64x64" href="/logo64x64.png">

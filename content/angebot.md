@@ -1,16 +1,20 @@
 ---
 title: "Angebot"
-description: "Psychotherapie für Kinder, Jugendliche, Familien und Erwachsene sowie Coaching und Weiterbildung für Lehrpersonen in Birr AG."
+description: "Psychotherapie für Kinder und Jugendliche, Familientherapie, Elternberatung und Psychotherapie für Erwachsene sowie Coaching für Lehrpersonen in Birr AG."
 ---
 
-## Kinder, Jugendliche und Familien
+## Psychotherapie für Kinder und Jugendliche
 
-Für Kinder und Jugendliche mit sozialen und emotionalen Problemen biete ich Einzel- und Familientherapien sowie Elternberatungen an.
+Für Kinder und Jugendliche mit sozialen und emotionalen Schwierigkeiten biete ich Einzel- und Familientherapien an. Im Mittelpunkt stehen die individuellen Anliegen, die vorhandenen Stärken und die Entwicklung hilfreicher Wege im Alltag.
 
-## Erwachsene
+## Familientherapie und Elternberatung
 
-Für Erwachsene biete ich Einzel- und Paartherapie an.
+Ich unterstütze Familien und Eltern dabei, Belastungen und Konflikte besser zu verstehen und neue Handlungsmöglichkeiten zu entwickeln.
 
-## Coaching für Lehrpersonen
+## Psychotherapie für Erwachsene
+
+Für Erwachsene biete ich Einzel- und Paartherapie in herausfordernden Lebenssituationen an.
+
+## Coaching für Lehrpersonen und Teams
 
 Ich biete Coachings für Lehrpersonen sowie massgeschneiderte Weiterbildungen für Lehrerteams zu schulrelevanten Fragestellungen an. Dabei arbeite ich nach dem ressourcen- und lösungsorientierten Ansatz.

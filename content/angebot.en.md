@@ -1,17 +1,21 @@
 ---
 title: "Services"
-description: "Individual and family therapy for children and adolescents, psychotherapy for adults, and coaching for teachers in Birr, Switzerland."
+description: "Psychotherapy for children and adolescents, family therapy, parent counselling, psychotherapy for adults and coaching for teachers in Birr, Aargau, Switzerland."
 ---
 
-## Children, adolescents and families
+## Psychotherapy for children and adolescents
 
-I offer individual and family therapy for children and adolescents experiencing social or emotional difficulties, as well as counselling for parents.
+I offer individual and family therapy for children and adolescents experiencing social or emotional difficulties. The focus is on individual concerns, existing strengths and developing helpful approaches for everyday life.
 
-## Adults
+## Family therapy and parent counselling
+
+I support families and parents in understanding challenges and conflicts and in developing new ways forward.
+
+## Psychotherapy for adults
 
 I offer individual and couples therapy for adults in difficult and challenging situations.
 
-## Coaching for teachers
+## Coaching for teachers and teams
 
 I provide coaching for teachers and tailored professional development for teaching teams. Topics include school-related questions and challenging classroom situations, using a resource- and solution-oriented approach.
 

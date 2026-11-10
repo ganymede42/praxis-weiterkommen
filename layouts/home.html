@@ -1,3 +1,11 @@
+{{ define "title" -}}
+  {{- if eq .Lang "de" -}}
+    Psychotherapie und psychologische Beratung in Birr AG | Praxis Weiterkommen
+  {{- else -}}
+    Psychotherapy and psychological support in Birr, Switzerland | Praxis Weiterkommen
+  {{- end -}}
+{{- end }}
+
 {{ define "header" }}
   <header class="pw-site-header">
     {{ partials.Include "site-navigation.html" . }}
@@ -13,12 +21,13 @@
       <div class="pw-hero-copy">
         {{ if eq .Lang "de" }}
           <p class="pw-eyebrow">Psychotherapeutische Praxis in Birr</p>
+          <h1>Psychotherapie und psychologische Beratung in Birr AG</h1>
         {{ else }}
           <p class="pw-eyebrow">Psychotherapeutic practice in Birr, Switzerland</p>
+          <h1>Psychotherapy and psychological support in Birr, Switzerland</h1>
         {{ end }}
-        <h1>{{ .Title }}</h1>
         {{ with .Description }}<p class="pw-hero-lead">{{ . }}</p>{{ end }}
-        <img style="border-radius: 1.5rem;" src="/Logo1_640px.png">
+        <img style="border-radius: 1.5rem;" src="{{ "Logo1_640px.png" | relURL }}" alt="Praxis Weiterkommen" width="320" loading="eager">
         <div class="pw-hero-actions">
           {{ with $services }}
             <a class="pw-button pw-button-primary" href="{{ .RelPermalink }}">{{ if eq $.Lang "de" }}Angebot entdecken{{ else }}Explore services{{ end }}</a>
@@ -29,7 +38,7 @@
         </div>
       </div>
       <div class="pw-hero-image-wrap">
-        <img class="pw-hero-image" src="{{ "Monika1_fixed_830px.jpg" | relURL }}" alt="{{ if eq .Lang "de" }}Monika Kast Perry{{ else }}Monika Kast Perry, psychotherapist{{ end }}" />
+        <img class="pw-hero-image" src="{{ "Monika1_fixed_830px.jpg" | relURL }}" alt="{{ if eq .Lang "de" }}Dr. phil. Monika Kast Perry, Psychotherapeutin in Birr{{ else }}Dr. phil. Monika Kast Perry, psychotherapist in Birr{{ end }}" />
       </div>
     </div>
   </section>
@@ -64,7 +73,7 @@
     <div class="pw-container pw-approach-grid">
       <div>
         <p class="pw-eyebrow">{{ if eq .Lang "de" }}Meine Haltung{{ else }}My approach{{ end }}</p>
-        <h3>{{ if eq .Lang "de" }}Stärken entdecken. Möglichkeiten entwickeln.{{ else }}Discover strengths. Create possibilities.{{ end }}</h2>
+        <h2>{{ if eq .Lang "de" }}Stärken entdecken. Möglichkeiten entwickeln.{{ else }}Discover strengths. Create possibilities.{{ end }}</h2>
       </div>
       <div class="pw-approach-copy">
         {{ .Content }}
