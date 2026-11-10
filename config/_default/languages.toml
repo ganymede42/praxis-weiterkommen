@@ -1,6 +1,7 @@
 [de]
 label = "Deutsch"
 locale = "de-CH"
+languageCode = "de-CH"
 weight = 1
 title = "Praxis Weiterkommen"
 
@@ -35,6 +36,7 @@ weight = 40
 [en]
 label = "English"
 locale = "en-GB"
+languageCode = "en-GB"
 weight = 2
 title = "Praxis Weiterkommen"
 

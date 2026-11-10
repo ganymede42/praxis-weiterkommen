@@ -5,6 +5,7 @@ title = "Praxis Weiterkommen"
 
 defaultContentLanguage = "de"
 defaultContentLanguageInSubdir = false
+languageCode = "de-CH"
 
 enableRobotsTXT = true
 
@@ -12,9 +13,8 @@ theme = "ananke"
 
 [params]
 site_logo = "Logo1_640px.png"
-#author = "Monika Kast Perry"
-description = "Psychotherapie und psychologische Beratung in Birr AG für Kinder, Jugendliche, Familien und Erwachsene. Coaching für Lehrpersonen und Teams."
-
+author = "Monika Kast Perry"
+description = "Psychotherapie und psychologische Beratung in Birr AG für Kinder, Jugendliche, Familien und Erwachsene. Elternberatung, Familientherapie und Coaching für Lehrpersonen."
 [params.ananke]
 custom_css = ["css/custom.css"]
 

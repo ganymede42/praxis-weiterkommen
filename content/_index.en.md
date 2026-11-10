@@ -1,6 +1,6 @@
 ---
 title: "Praxis Weiterkommen"
-description: "Psychotherapy and psychological support for children, adolescents, families and adults in Birr, Switzerland."
+description: "Dr. phil. Monika Kast Perry offers psychotherapy and psychological support for children, adolescents, families and adults in Birr, Aargau, Switzerland, as well as parent counselling and coaching for teachers."
 ---
 
 I support children, adolescents and their families with social and emotional difficulties. Together, we look for ways to build on strengths, ease concerns and make positive change possible.
@@ -11,4 +11,4 @@ I also offer psychotherapeutic support for adults. Teachers and teaching teams c
 >
 > Franz Kafka
 
-![PhotoDanielMallard](/90318efe-a452-4dd3-a39c-0cffc87ed48d.jpeg)
+![Praxis Weiterkommen – practice interior](/90318efe-a452-4dd3-a39c-0cffc87ed48d.jpeg)
